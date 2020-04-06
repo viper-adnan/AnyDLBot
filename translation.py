@@ -1,7 +1,7 @@
 class Translation(object):
-    START_TEXT = """This is an @AnyDLBot clone created using the Open Source code available.
-Source Code: https://github.com/SpEcHiDe/AnyDLBot
-© @AnyDLBot"""
+    START_TEXT = """Hi !
+Hit /help to know what I can do !
+Powered by @ViperPunk"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "This bot is Powered by @ViperPunk\nSo, This bot is Absolutely Free for everyone.\nDon't abuse our Free Features."
