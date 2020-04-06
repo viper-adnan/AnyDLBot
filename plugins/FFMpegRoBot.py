@@ -33,13 +33,6 @@ from hachoir.parser import createParser
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["ffmpegrobot"]))
 async def ffmpegrobot_ad(bot, update):
-    if update.from_user.id not in Config.AUTH_USERS:
-        await bot.delete_messages(
-            chat_id=update.chat.id,
-            message_ids=update.message_id,
-            revoke=True
-        )
-        return
     TRChatBase(update.from_user.id, update.text, "ffmpegrobot")
     await bot.send_message(
         chat_id=update.chat.id,
