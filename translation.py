@@ -30,10 +30,13 @@ URL | filename | username | password"""
 Telegram ID: <code>{}</code>
 Plan name: <a href='https://t.me/SpEcHlDe/599'>{}</a>
 Expires on: {}"""
-    HELP_USER = """1.You just wanted to sent a valid direct URL I will upload it to telegram
+    HELP_USER = """<b>URL UPLOADER</b>
+1.You just wanted to sent a valid direct URL I will upload it to telegram
 2.If you needed custom filename enter the filename after the URL dividing by a |
-example: `url|filename.extension`
-3.If you needed custom thumbnail support just sent me an image."""
+example: <code>url|filename.extension</code>
+3.If you needed custom thumbnail support just sent me an image.
+<b>Rename files.</b>
+Send <code>/rename NewFileName.extension</code> while replying to a file."""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
